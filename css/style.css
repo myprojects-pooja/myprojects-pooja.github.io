@@ -67,7 +67,7 @@ footer div,a{
 	background-color:rgba(0,0,0,.7);
 	background-image: url("../images/body.jpg");
 	background-size:100%;
-	background-repeat:repeat;
+	background-repeat:no-repeat;
 	text-align:center;
 	padding:8%;
 	font-variant:small-caps;
