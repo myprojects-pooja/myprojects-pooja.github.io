@@ -170,6 +170,10 @@ div:focus{
 	border-radius:50%;
 }
 
+iframe{
+	text-align:center;
+}
+
 a{
 	color:rgb(0,0,255);
 	font-variant:small-caps;
@@ -230,7 +234,11 @@ div h2{
 	color:#dbe9f4;
 }
 
-@media screen and (min-width:1200px){
+p{
+	font-size:130%;
+}
+
+@media screen and (min-width:992px){
 	.column{
 	display:inline-block;
 	width:30%;
@@ -242,9 +250,6 @@ div h2{
 		height:280px;
 	}
 	
-	.column p{
-		font-size:100%;
-	}
 	
 	.column img{
 		width:50%;
