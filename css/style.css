@@ -66,7 +66,7 @@ footer div,a{
 	text-align:center;
 	padding:5%;
 	font-variant:small-caps;
-	height:85vh;
+	height:70vh;
 }
 
 .firstdiv a{
@@ -241,7 +241,7 @@ div h2{
 	}
 	
 	.column p{
-		font-size:110%;
+		font-size:100%;
 	}
 	
 	.column img{
@@ -253,11 +253,14 @@ div h2{
 	background-color:#2554c7;
 	padding-left:2%;
 	padding-bottom:4%;
-	font-size:130%;
+	font-size:150%;
 	text-align:center;
 	height:15vh;
 	}
 	
+	nav h1{
+		font-size:200%;
+	}
 	
 	.contactus{
 		text-align:center;
@@ -267,16 +270,21 @@ div h2{
 
 	footer div{
 		height:7vh;
-		font-size:100%;
+		font-size:140%;
 		display:block;
 	}
 	
+	
 	p{
-		font-size:130%;
+		font-size:140%;
 	}
 	
 	.firstdiv a{
-		font-size:100%;
+		font-size:130%;
+	}
+	
+	.firstdiv h1{
+		font-size:200%;
 	}
 	
 	.seconddiv p{
@@ -297,7 +305,7 @@ div h2{
 	}
 	
 	.Share,.Follow,.contactus{
-		font-size:150%;
+		font-size:200%;
 	}
 }
 
