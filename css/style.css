@@ -8,7 +8,7 @@ header{
 }
 
 section{
-	background-color:#dcdcdc;
+	background-color:rgb(240,240,240);
 	font-family:Georgia !important,Ariel,courier;
 }
 
@@ -264,6 +264,14 @@ p{
 		font-size:90%;
 		margin:0.2%;
 	}
+	
+	.Share,.Follow,.contactus{
+		font-size:130%;
+	}
+	
+	footer div{
+		font-size:130%;
+	}
 }
 
 @media screen and (min-width:1200px){
@@ -300,6 +308,7 @@ p{
 	.contactus{
 		text-align:center;
 		margin:0.5%;
+		
 	}
 
 	.leader{
@@ -307,8 +316,8 @@ p{
 	}
 
 	footer div{
-		height:7vh;
-		font-size:140%;
+		height:9vh;
+		font-size:150%;
 		display:block;
 	}
 	
@@ -335,15 +344,19 @@ p{
 	}
 	
 	div h2,h2{
-		font-size:150%;
+		font-size:170%;
+	}
+	
+	div h1{
+		font-size:190%;
 	}
 	
 	.lastdiv p{
-		font-size:140%;
+		font-size:130%;
 	}
 	
 	.Share,.Follow,.contactus{
-		font-size:200%;
+		font-size:150%;
 	}
 }
 
