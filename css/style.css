@@ -1,10 +1,15 @@
 header{
 	background-color:#2554c7;
 	color:rgb(255,255,255);
-	font-family:Georgia;
+	font-family:Georgia !important,Ariel,courier;
 	text-align:center;
 	padding:0.5% 0;
 	font-size:140%;
+}
+
+section{
+	background-color:#dcdcdc;
+	font-family:Georgia !important,Ariel,courier;
 }
 
 h1{
@@ -41,7 +46,7 @@ footer{
 	color:rgb(255,255,255);
 	background-color:#368bc1;
 	opacity:100%;
-	font-family:Arial;
+	font-family:Georgia !important,Ariel,courier;
 	text-align:center;
 	padding:2%;
 	font-size:80%;
@@ -78,7 +83,7 @@ footer a{
 	margin:1%;
 	padding:1.5%;
 	border-radius:10px;
-	font-family:Georgia;
+	font-family:Georgia !important,Ariel,courier;
 	font-size:100%;
 	transition-property: border,margin,padding;
 	transition-duration:.2s;
@@ -96,7 +101,6 @@ footer a{
 	background-color:#659ec7;
 	color:rgb(255,255,255);
 	padding:5%;
-	font-size:70%;
 	text-align:center;
 }
 
@@ -106,9 +110,9 @@ footer a{
 	margin-left:0.2%;
 	margin-right:0.2%;
 	background-color:rgb(255,255,255);
-	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
-	-moz-box-shadow: 3px 3px 5px 6px #ccc;
-	box-shadow: 3px 3px 5px 6px #ccc;
+	-webkit-box-shadow: 3px 3px 3px 3px #ccc;
+	-moz-box-shadow: 3px 3px 3px 3px #ccc;
+	box-shadow: 3px 3px 3px 3px #ccc;
 }
 
 .one{
@@ -117,7 +121,7 @@ footer a{
 	padding:1%;
 	margin:1%;
 	border-radius:10px;
-	font-size:100%;
+	font-size:90%;
 	font-variant:small-caps;
 	-webkit-box-shadow: 3px 3px 5px 6px #aaa;
 	-moz-box-shadow: 3px 3px 5px 6px #aaa;
@@ -126,13 +130,14 @@ footer a{
 
 .fourthdiv{
 	text-align:center;
-	padding:2%;
-	
+	padding:1%;
+	background-color:rgba(255,255,255,.7);
 }
 
 .fifthdiv{
 	text-align:center;
 	padding:7%;
+	background-color:rgba(255,255,255);
 	-webkit-box-shadow: 3px 3px 5px 6px #aaa;
 	-moz-box-shadow: 3px 3px 5px 6px #aaa;
 	box-shadow: 3px 3px 5px 6px #aaa;
@@ -147,6 +152,7 @@ footer a{
 	padding:2%;
 	margin-left:0.2%;
 	margin-right:0.2%;
+	background-color:rgba(255,255,255);
 	-webkit-box-shadow: 3px 3px 5px 6px #aaa;
 	-moz-box-shadow: 3px 3px 5px 6px #aaa;
 	box-shadow: 3px 3px 5px 6px #aaa;
@@ -156,14 +162,12 @@ footer a{
 	padding:10px;
 	margin-left:0.2%;
 	margin-right:0.2%;
+	background-color:rgb(255,255,255);
 	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
 	-moz-box-shadow: 3px 3px 5px 6px #ccc;
 	box-shadow: 3px 3px 5px 6px #ccc;
 }
 
-div:focus{
-	opacity:70%;
-}
 
 .column img{
 	width:40%;
@@ -194,6 +198,11 @@ body{
 	 -webkit-box-shadow: 0px 3px 5px 6px #ccc;
 	-moz-box-shadow: 0px 3px 5px 6px #ccc;
 	box-shadow: 0px 3px 5px 6px #ccc;
+}
+
+.lastdiv{
+	background-color:rgba(255,255,255);
+	padding-top:2%;
 }
 
 .lastdiv h2{
@@ -227,18 +236,32 @@ hr{
 }
 
 div h2{
-	font-size:100%;
+	font-size:110%;
 }
 
 .contactus a:hover{
 	color:#dbe9f4;
 }
 
+.bio{
+	font-size:110%;
+}
+
 p{
 	font-size:100%;
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:780px){
+	.column img{
+		width:30%;
+	}
+	
+	p{
+		font-size:120%;
+	}
+}
+
+@media screen and (min-width:1200px){
 	.column{
 	display:inline-block;
 	width:30%;
@@ -274,11 +297,18 @@ p{
 		margin:0.5%;
 	}
 
+	.leader{
+		font-size:130%;
+	}
 
 	footer div{
 		height:7vh;
 		font-size:140%;
 		display:block;
+	}
+	
+	.bio{
+		font-size:110%;
 	}
 	
 	
@@ -287,15 +317,11 @@ p{
 	}
 	
 	.firstdiv a{
-		font-size:130%;
+		font-size:120%;
 	}
 	
 	.firstdiv h1{
 		font-size:200%;
-	}
-	
-	.seconddiv p{
-		font-size:170%;
 	}
 	
 	.one{
@@ -308,7 +334,7 @@ p{
 	}
 	
 	.lastdiv p{
-		font-size:130%;
+		font-size:140%;
 	}
 	
 	.Share,.Follow,.contactus{
